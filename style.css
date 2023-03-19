@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+#header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 40px;
+	background: black;	
+	text-decoration: none;
+	position: sticky;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	
+}
+.logo p{
+	text-decoration: none;
+	font-size:20px;	
+	color: white;
+}
+#navbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+#navbar li{
+	list-style: none;
+	padding: 0 20px;
+
+}
+#navbar li a{
+	text-decoration: none;
+	font-size:18px;
+	font-weight: bold;
+	color: white;
+	transition: 0.3s ease;
+}
+#navbar li a:hover{
+	color: orange;
+}
+
+
+/*#navbar li a:hover,
+#navbar li a.active{
+	color:orange;
+
+}
+#navbar li a.active::after{
+	content:""; 
+	width:30%;
+	height: 20px;
+	background:black;
+	position: absolute;
+}*/
+#hero img
+{
+	background-position: cover;
+	background-position: top 25% from 0;
+	width: 100%;
+
+}
+#about{
+	text-align: center;
+}
+#about h1{
+text-align: center;
+}
+
+#about p{
+	font-size: 18px;
+	color: black;
+	text-align: justify;
+	margin: 35px 30px 10px 50px;
+	font-family: TimesNewRoman;	
+}
+
+#list h1{
+	text-align: center;
+	font-weight: 25px;
+}
+#list h2{
+	color: orange;
+	text-align: center;	
+}
+
+
+#list .dessertlist{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	flex-wrap: wrap;
+	text-decoration: none;
+	filter: url(#threshold) blur(0.6px);
+}
+
+.dessertitem{
+	width: 10%;
+	min-width: 100px;
+	padding: 0px 10px;
+	border: 1px;
+	cursor: pointer;
+	box-shadow: 15px 15px 15px rgba(0,0,0,0.06);
+	position: relative;
+	text-decoration: none;
+}
+#list .dessertitem img{
+	width: 100%;
+	border-radius: 15px;
+
+}
+#list p{
+	color: orange;
+	text-align: center;
+}
+#dessertitem button a{
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+	padding: 12px 8px;
+
+}
+
+#dessertitem button{
+	size: 10px;
+	color: white;
+	text-decoration: none;
+	padding: 12px 8px;
+}
+#dessertitem button:hover{
+	color: orange;	
+}
+#product1{
+	text-align: center;
+	font-weight: 25px;
+	margin: 90px 0 20px 0;
+}
+#product1 p{
+	color: black;
+	margin-top:0;
+}
+#product1 .pro-container{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+.pro{
+	width: 15%;
+	min-width: 100px;
+	padding: 7px 10px;
+	border: 1px;
+	cursor: pointer;
+	box-shadow: 20px 20px 20px rgba(0,0,0,0.06);
+	position: relative;
+}
+/*.des span{
+	text-align: left;
+}*/
+.pro:hover{
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+#product1 .pro img{
+	width: 100%;
+	border-radius: 20px;
+
+}
+#product1 .pro .des span{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+#product1 .pro .des h4{
+	padding: 7px;
+	font-size: 12px;
+}
+.des i{
+	font-size: 10px;
+	color: yellow;
+}
+.cart{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 70px;
+	font-weight: 300;
+	color: #20B2AA;
+}
+#cart1{
+	text-align: center;
+	font-weight: 25px;
+	width: 100%;
+	height: 50px;
+	padding-top:40px; 
+	padding-bottom: 40px;
+	margin: 0 40px 40px 0;
+}
+#cart1 tr{
+	justify-content: space-between;
+}
+.order a{
+	text-decoration: none;
+	border:none;
+	
+}
+.order button:hover{
+	background-color: #43c6db;
+  color: white;
+  transform: translateY(0);
+}
+
+/*#banner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;	
+	background-image: url("img/ban.jpg");
+	width: 100%;
+	height: 40vh;
+	background-size: cover;
+}*/
+#newsletter{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: black;
+	color: white;	
+
+}
+#newsletter h4{
+	font-size: 22px;
+	font-weight: 700;
+	margin: 30px 0 30px 60px;
+
+}
+#newsletter p{
+	font-size: 14px;
+	font-weight: 500;
+	margin: 30px 0 30px 60px;
+}
+#newsletter p span{
+	font-size: 14px;
+	font-weight: 500;
+	color:orange;
+}
+#newsletter form{
+	display: flex;
+	margin: 30px 0 30px 0;	
+
+}
+#newsletter input{
+	height: 3.0em;
+	padding: 0 0.5em;
+	font-family: 12px;	
+	border: 1px solid transparent;
+	border-radius: 2px;
+	outline: none;
+}
+#newsletter button{
+	background-color: #43c6db;
+	white-space: nowrap;
+	color: white;
+	font-weight: bold;
+	height:2em;
+}
+footer{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+	font-size: 14px;
+	padding-bottom: 10px; 
+	padding-top: 40px;
+	margin: 90px 0 20px 0;
+
+	}
+.col{
+	
+	align-items: flex-start;	
+	justify-content: space-between;
+	margin: 0 0 5px 30px;
+}
+.col p
+{
+	color: black;
+	font-size: 15px;
+	margin-left: 50px;
+	margin: 0 0px 15px 50px;
+}
+.col2 h4{
+	font-size: 14px;
+	font-weight: bold;	
+	margin: 0 50px 10px 0;	
+	padding-left: 200px;
+}
+.col2 i{
+	margin: 0 0px 2px 10px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	cursor: pointer;
+}
+.col3 p{
+	font-size: 13px;
+	margin: 0 0 20px;
+}
+.col3 a{
+	font-size: 14px;
+	text-decoration:none;
+	margin: 0 70px 10px 0;	
+	padding-bottom: 5px;
+	color: black;
+	cursor: pointer;
+	
+}
+.copyrigths p{
+	
+	color: black;
+	font-size: 14px;
+}
+.anin{
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	text-align: center;
+	padding:0 50px;
+	margin: 0 0 0 250px;
+
+}
+#text1,
+#text2 {
+    position: absolute;       
+    font-family: perpetua;
+    font-size: 30px;
+    text-align: center;    
+    color: orange;   
+    margin: 0 0 0 180px;
+
+    
+}
+
+@media only screen and (max-width: 768px){
+	#header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    
+}}
+@media only screen and (max-width: 425px){
+	#navbar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    
+}
+}
+
+
+
+
+
+
